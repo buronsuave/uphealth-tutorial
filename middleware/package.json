@@ -1,0 +1,20 @@
+{
+  "name": "middleware",
+  "version": "1.0.0",
+  "description": "npm init\r npm i express\r npm i body-parser\r npm i mssql\r npm i --save-dev nodemon",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1", 
+    "start": "nodemon index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "mssql": "^7.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.13"
+  }
+}
