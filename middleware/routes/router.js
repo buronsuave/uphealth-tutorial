@@ -53,7 +53,7 @@ router.put('/usertypes', updateUserType);
 router.get('/usertype/:id', getUserType);
 router.delete('/usertype/:id', deleteUserType);
 
-// User Controller
+// Record Controller
 const { getRecords } = require('../controllers/record_controller');
 const { getRecord } = require('../controllers/record_controller');
 const { addRecord } = require('../controllers/record_controller');
@@ -65,5 +65,7 @@ router.post('/records', addRecord);
 router.put('/records', updateRecord);
 router.get('/record/:id', getRecord);   
 router.delete('/record/:id', deleteRecord);
+
+
 
 module.exports = router;
